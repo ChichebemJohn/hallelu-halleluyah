@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+a {
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 3rem;
+}
+
+.navLinks a{
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+}
+.navLinks a:hover{
+    color: #A03232;
+}
+#navButton{
+    background-color: #A03232;
+    padding: 10px;
+    border: none;
+    color:white;
+    border-radius: 12px;
+    font-size: 17px;
+}
+.heroSection{
+    background-color: #e3e4e8;
+    padding: 3rem 2rem;
+    display: flex
+}
+.leftHero p:nth-child(1){
+    color: #A03232;
+}
+.leftHero h1{
+    font-size: 3.5rem;
+}
